@@ -38,6 +38,7 @@ a:hover {
 }
 h2 {
   margin: 0;
+  border-bottom: 1px solid white;
 }
 .content-wrap {
   width: 800px;
