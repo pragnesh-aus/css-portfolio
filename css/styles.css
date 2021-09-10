@@ -1,0 +1,97 @@
+/* CSS HEX */
+/* 
+--charcoal: #264653ff;
+--persian-green: #2a9d8fff;
+--orange-yellow-crayola: #e9c46aff;
+--sandy-brown: #f4a261ff;
+--burnt-sienna: #e76f51ff;
+ */
+
+/* Global style
+-------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+
+a {
+  color: #fca311;
+}
+
+a:hover {
+  text-decoration: none;
+}
+h2 {
+  margin: 0;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+h3 + p {
+  font-style: italic;
+}
+h3 ~ p {
+  margin: 0;
+}
+
+/* Profile
+-------------------------------------- */
+header {
+  background-color: #2f4f4f;
+  text-align: center;
+}
+/* Projects
+-------------------------------------- */
+.projects {
+  background-color: #482C3D;
+}
+/* Work experience
+-------------------------------------- */
+.work-experience {
+  background-color: #685044;
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+/* Education
+-------------------------------------- */
+.education {
+  background-color: #264653ff;
+}
+/* Contact Info
+-------------------------------------- */
+footer {
+  background-color: #343a40;
+  text-align: center;
+}
+.content-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.content-list a {
+  padding: 15px;
+  display: inline-block;
+}
